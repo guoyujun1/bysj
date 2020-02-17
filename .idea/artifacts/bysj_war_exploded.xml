@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bysj:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bysj_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bysj" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="mysql-connector-java-8.0.18.jar" module-name="bysj" />
+          <element id="library" level="module" name="jxl.jar" module-name="bysj" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="bysj/web/Web" />
+    </root>
+  </artifact>
+</component>
